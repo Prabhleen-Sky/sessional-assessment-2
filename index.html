@@ -38,6 +38,7 @@
 
 <!-----------------------------------blog  section --------------------------------->
 <section class="blogs-section">
+    <!-- testing blog section by creating a temp div  -->
     <div class="blog-card">
         <img src="assests/headerbg.jpg" class="blog-image" alt="">
         <h2 class="blog-title">Lorem ipsum dolor sit amet consectetur.</h2>
@@ -45,6 +46,29 @@
         <a href="/" class="btn dark">Read more</a>
     </div>
 </section>
+<hr>
+<!-----------------------------------write post section --------------------------------->
+<section class="write-post">
+    <h2>Write a new Post</h2>
+    <div class="banner">
+        <input type="file" accept="image/*" id="banner-upload" hidden>
+        <label for="banner-upload" class="banner-upload-btn">Upload Banner</label>
+    </div>
+    
+    <div class="blog">
+        <textarea type="text" class="title" placeholder="Write your title..."></textarea>
+        <textarea type="text" class="article" placeholder="Start writing here..."></textarea>
+    </div>
+    
+    <div class="blog-options">
+        <button class="btn dark publish-btn">Publish Blog</button>
+        <input type="file" accept="image/*" id="image-upload" hidden>
+        <label for="image-upload" class="btn grey upload-btn">Upload Image</label>
+    </div>
+</section>
+
+
+<script src="script.js"></script>
    
 </body>
 </html>
