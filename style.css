@@ -249,3 +249,71 @@ textarea::-webkit-scrollbar-thumb{
     margin-left: 20px;
     font-size: 14px;
 }
+
+
+/*-------------------------------------- contact section styling ------------------------------ */
+
+.contact{
+    color:#333;
+    border: 1px solid #fff;
+}
+
+.contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact .title{
+    text-align: center;
+    /* text-decoration: underline rgba(169, 191, 203, 0.8); */
+    font-size: 40px;
+    font-weight: 550;
+    /* margin-bottom: 60px; */
+    margin-top: 4%;
+    padding-bottom: 20px;
+}
+
+
+.contact .contact-content .column{
+    width:100%;
+}
+
+.contact .contact-content .one{
+    width: 45%;
+}
+
+.contact .contact-content .two{
+    width: 45%;
+}
+
+.contact .contact-content .btn{
+    margin-top: 3%;
+    margin-bottom: 4%;
+    font-size: 16px;
+    background-color: rgb(170,108,100);
+}
+
+/* -----------------footer section styling-------------- */
+.footer{
+    background-color: rgb(32, 29, 29);
+    color: rgb(203, 201, 197);
+}
+
+.footer .logo{
+    margin-left: 41%;
+    margin-top: 2.5%;
+    width: 220px;
+}
+
+.footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer .container a{
+    margin: 3%;
+}
+
