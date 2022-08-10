@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1b1b1b;
+    /* background-color: #1b1b1b; */
+    background-color: #cd8d8b;; 
+    /* #cd8d8b; */
     color: #fff;
 }
 
@@ -59,7 +61,8 @@ body{
 .header{
     margin-top: 60px;
     width: 100%;
-    height: calc(100vh - 60px);
+    /* height: calc(100vh - 60px); */
+    height: 100vh;
     background: url(assests/headerbg.jpg);
     background-size:cover;
     display: flex;
@@ -95,11 +98,39 @@ body{
     background: none;
 }
 
-.header-btn{
+.btn{
     padding: 10px 20px;
     border-radius: 10px;
     background: rgb(170,108,100);
     color: #000;
     text-decoration: none;
     text-transform: capitalize;
+}
+
+/* -------------------------------------styling of blog section ------------------------------- */
+.blogs-section{
+    width: 100%;
+    padding: 50px 5vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+}
+
+.blog-image{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.blog-overview{
+    margin: 10px 0 20px;
+    line-height: 22px;
+}
+
+.btn.dark{
+    background: #826a5a;
+    color: #fff;
+    padding: 8px 15px ;
 }
