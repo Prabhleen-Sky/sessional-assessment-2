@@ -7,7 +7,12 @@
     /* #cd8d8b; */
     color: #fff;
     scroll-behavior: smooth;
-    scroll-padding-top: 70px;
+    scroll-padding-top: 100px;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
 }
 
 /* styling body  */
@@ -119,12 +124,14 @@ body{
     margin-top: 3%;
 }
 
+
 .blog-image{
     width: 100%;
     height: 240px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 8px;
+    margin-top: 1%;;
 }
 
 .blog-overview{
@@ -148,6 +155,7 @@ body{
 
 .write-post h2{
     margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 .banner{
