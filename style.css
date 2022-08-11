@@ -6,6 +6,7 @@
     background-color: #cd8d8b;; 
     /* #cd8d8b; */
     color: #fff;
+    scroll-behavior: smooth;
 }
 
 /* styling body  */
@@ -114,6 +115,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 80px;
+    margin-top: 3%;
 }
 
 .blog-image{
@@ -243,6 +245,11 @@ textarea::-webkit-scrollbar-thumb{
     height: 40px;
 }
 
+#contact-btn{
+    text-decoration: none;
+    background-color: transparent;
+}
+
 .btn.grey{
     background: #a5a5a5;
     color: #fff;
@@ -317,3 +324,41 @@ textarea::-webkit-scrollbar-thumb{
     margin: 3%;
 }
 
+/*-------------------------------------- login styling ------------------------------ */
+
+
+.login-h{
+    text-align: center;
+    margin: 5%;
+}
+
+.login{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login  a{
+    text-decoration: none;
+}
+
+.login-items{
+    background: transparent;
+    border-radius: 99em;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: 20px;
+    padding: 1%;
+    margin: .5%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login-icons{
+    width: 8%;
+    margin-top:3%;
+    margin-right: 3%;
+}

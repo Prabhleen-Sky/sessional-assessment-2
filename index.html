@@ -17,11 +17,11 @@
     <nav class="navbar">
         <img src="assests/logo.png" class="logo" alt="logo">
         <ul class="links-container">
-            <li class="link-item"><a href="/" class="link">Home</a></li>
-            <li class="link-item"><a href="/" class="link">Blogs</a></li>
-            <li class="link-item"><a href="/" class="link">Write Post</a></li>
-            <li class="link-item"><a href="/" class="link">Sign In</a></li>
-            <li class="link-item"><a href="/" class="link">Contact</a></li>
+            <li class="link-item"><a href="#" class="link">Home</a></li>
+            <li class="link-item"><a href="#blogs" class="link">Blogs</a></li>
+            <li class="link-item"><a href="#write-post" class="link">Write Post</a></li>
+            <li class="link-item"><a href="login.html" class="link">Sign In</a></li>
+            <li class="link-item"><a href="#contact" class="link">Contact</a></li>
         </ul>
     </nav>
   
@@ -32,23 +32,23 @@
                 <span class="small">Welcome to the world of</span>
                 <span class="no-fill">Blogging</span>
             </h1>
-            <a href="/editor" class="btn">Start Reading</a>
+            <a href="#blogs" class="btn">Start Reading</a>
         </div>
     </header>
 
 <!-----------------------------------blog  section --------------------------------->
-<section class="blogs-section">
+<section class="blogs-section" id="blogs">
     <!-- testing blog section by creating a temp div  -->
-    <div class="blog-card">
+    <!-- <div class="blog-card">
         <img src="assests/headerbg.jpg" class="blog-image" alt="">
         <h2 class="blog-title">Lorem ipsum dolor sit amet consectetur.</h2>
         <p class="blog-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt fugiat quos porro repellat harum. Adipisci tempora corporis rem cum.</p>
         <a href="/" class="btn dark">Read more</a>
-    </div>
+    </div> -->
 </section>
 <hr>
 <!-----------------------------------write post section --------------------------------->
-<section class="write-post">
+<section class="write-post" id="write-post">
     <h2>Write a new Post</h2>
     <div class="banner">
         <input type="file" accept="image/*" id="banner-upload" hidden>
@@ -78,7 +78,7 @@
                     <div class="column one">
                        <h3>The Blog</h3>
                        <p>Visit our site blog for the latest news, product updates, and tips and tricks.</p>
-                       <button class="btn dark">Read our Blog</button>
+                       <button class="btn dark"><a href="#blogs" id="contact-btn"> Read our Blog</a></button>
                     </div>
                     <div class="column two">
                         <h3>Join Us</h3>
@@ -101,6 +101,8 @@
             <a href="https://github.com/login" target="_blank" class="github">Help</a>
     </div>
 </section> 
+    
+     
 
 <script src="script.js"></script>
    
