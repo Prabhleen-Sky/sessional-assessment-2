@@ -43,5 +43,14 @@ let pagination = new tui.Pagination("pagination", {
 
 
 
+////////
+document.querySelector('.publish-btn').addEventListener('click' ,() =>{
+        const val = `<div class="blog-card">
+        <img src="https://picsum.photos/250/?random=${Math.random()}" class="blog-image" alt="">
+        <h2 class="blog-title">${document.querySelector('.title').value}</h2>
+        <p class="blog-overview">${document.querySelector('.article').value}}</p>
+        <a href="login.html" class="btn dark">Read more</a>
+       </div>`;
 
-
+        document.querySelector('.blogs-section').innerHTML += val;
+})
