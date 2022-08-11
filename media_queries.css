@@ -7,7 +7,7 @@
     .navbar{
         display: flex;
         justify-content:left;
-        font-size: 14px;
+        font-size: 10px;
         padding: 0 0;
     }
 
@@ -17,32 +17,32 @@
     }
 
     .heading{
-        line-height: 30px;
+        line-height: 25px;
     }
 
     .heading .small{
        font-size: 25px;
-       margin-left: 35%;
+       margin-left: 54%;
     }
 
     .heading .no-fill{
         font-size: 25px;
         color: #d06e6a;
         font-weight: normal;
-        margin-left: 20%;
+        margin-left: 57%;
     }
 
     .header .btn{
         padding: 5px 5px;
         font-size: 15px;
         margin-top: 0;
-        margin-left: 45px;
+        margin-left: 47%;
     }
 
     /* blogs section  */
     .blogs-section{
         width: 100%;
-        padding: 25px 4vw;
+        padding: 37px 4vw;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
@@ -75,7 +75,13 @@
     }
 
     /* write post section  */
+    
+    .write-post{
+        margin-top: 10%;
+    }
+
     .banner{
+        margin-top: 2%;
         height: 200px;
     }
 
@@ -927,6 +933,8 @@
         width: 100%;
         position: relative;
         font-family: 'poppins', sans-serif;
+        scroll-padding-top: 70px;
+        scroll-behavior: smooth;
     }
     
     /* ::selection{
